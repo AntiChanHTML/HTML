@@ -41,6 +41,28 @@
     section {
       margin-bottom: 30px;
     }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0077cc;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .link-superior {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
   </style>
 </head>
 <body>
@@ -50,9 +72,15 @@
       <ul>
         <li><a href="#sobre-mi">Sobre mí</a></li>
         <li><a href="#galeria">Galería</a></li>
-        <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
+
+    <div class="link-superior">
+      <p>Visita este sitio para aprender desarrollo web:</p>
+      <a href="https://developer.mozilla.org/es/docs/Learn" target="_blank" rel="noopener noreferrer">
+        MDN Web Docs - Aprende desarrollo web
+      </a>
+    </div>
   </header>
 
   <main>
@@ -63,16 +91,15 @@
 
     <section id="galeria">
       <h3>Galería de Imágenes</h3>
-
-      
       <div class="imagenes-gatos">
         <ul>
-          <li><img src="https://content.imageresizer.com/images/memes/El-Gato-meme-6.jpg" alt="Gato divertido"></li>
-          <li><img src="https://es.cats.com/wp-content/uploads/2022/02/my-cat-sleeping.jpg" alt="Gato durmiendo"></li>
-          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOVzqSoSlOxM4BMM20l8jZh-lMpBmG0wueQg&s" alt="Gato curioso"></li>
+          <li><img src="https://content.imageresizer.com/images/memes/El-Gato-meme-6.jpg" alt="Gato divertido con cara graciosa"></li>
+          <li><img src="https://es.cats.com/wp-content/uploads/2022/02/my-cat-sleeping.jpg" alt="Gato durmiendo plácidamente"></li>
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOVzqSoSlOxM4BMM20l8jZh-lMpBmG0wueQg&s" alt="Gato curioso mirando hacia arriba"></li>
         </ul>
       </div>
     </section>
+
     <h3>Razas de gatos</h3>
     <ul class="lista-razas">
       <li>Persa</li>
@@ -81,17 +108,10 @@
       <li>Bengalí</li>
       <li>British Shorthair</li>
     </ul>
-
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <p>Si te interesa aprender mas sobre desarrollo web, visita:</p>
-      <p><a href="https://developer.mozilla.org/es/docs/Learn" target="_blank" rel="noopener noreferrer">MDN Web Docs - Aprende desarrollo web</a></p>
-    </section>
   </main>
-  <footer>
-  <p>Creado por Angel Manuel Mercedes Drullard © 2025</p>
-</footer>
 
+  <footer>
+    <p>&copy; 2025 Mi Página de Ejemplo</p>
+  </footer>
 </body>
 </html>
-
